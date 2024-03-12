@@ -1,0 +1,686 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1D96569C2B9B38A2005E2E6E /* SafariSauceLabsApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D96569B2B9B38A2005E2E6E /* SafariSauceLabsApp.swift */; };
+		1D96569E2B9B38A2005E2E6E /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D96569D2B9B38A2005E2E6E /* ContentView.swift */; };
+		1D9656A02B9B38A2005E2E6E /* Item.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D96569F2B9B38A2005E2E6E /* Item.swift */; };
+		1D9656A22B9B38A6005E2E6E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1D9656A12B9B38A6005E2E6E /* Assets.xcassets */; };
+		1D9656A52B9B38A6005E2E6E /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1D9656A42B9B38A6005E2E6E /* Preview Assets.xcassets */; };
+		1D9656AF2B9B38A6005E2E6E /* SafariSauceLabsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D9656AE2B9B38A6005E2E6E /* SafariSauceLabsTests.swift */; };
+		1D9656B92B9B38A6005E2E6E /* SafariSauceLabsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D9656B82B9B38A6005E2E6E /* SafariSauceLabsUITests.swift */; };
+		1D9656BB2B9B38A6005E2E6E /* SafariSauceLabsUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D9656BA2B9B38A6005E2E6E /* SafariSauceLabsUITestsLaunchTests.swift */; };
+		1DA6F8D32B9D739900CDC1B6 /* LoginPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DA6F8D22B9D739900CDC1B6 /* LoginPage.swift */; };
+		1DA6F8D62B9D75E600CDC1B6 /* BaseTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DA6F8D52B9D75E600CDC1B6 /* BaseTest.swift */; };
+		1DA6F8D82B9D76D800CDC1B6 /* LoginPageTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DA6F8D72B9D76D800CDC1B6 /* LoginPageTest.swift */; };
+		1DA6F8DA2B9D79B700CDC1B6 /* BasePage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DA6F8D92B9D79B700CDC1B6 /* BasePage.swift */; };
+		1DA6F8DD2B9D7DDF00CDC1B6 /* WaitUtilities.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DA6F8DC2B9D7DDF00CDC1B6 /* WaitUtilities.swift */; };
+		1DD8F5372B9D8F6B00B7EDE3 /* SafariSauceLabsUITests2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DD8F5362B9D8F6B00B7EDE3 /* SafariSauceLabsUITests2.swift */; };
+		1DD8F5392B9D95C500B7EDE3 /* HomePage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DD8F5382B9D95C500B7EDE3 /* HomePage.swift */; };
+		1DD8F53B2B9DB24600B7EDE3 /* CartDetailsPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DD8F53A2B9DB24600B7EDE3 /* CartDetailsPage.swift */; };
+		1DD8F53D2B9DB49100B7EDE3 /* UserInformationPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DD8F53C2B9DB49100B7EDE3 /* UserInformationPage.swift */; };
+		1DD8F53F2B9DC3DE00B7EDE3 /* ConfirmationPaymentPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DD8F53E2B9DC3DE00B7EDE3 /* ConfirmationPaymentPage.swift */; };
+		1DD8F5422B9E165000B7EDE3 /* SwiftSoup in Frameworks */ = {isa = PBXBuildFile; productRef = 1DD8F5412B9E165000B7EDE3 /* SwiftSoup */; };
+		1DD8F5462B9E17EA00B7EDE3 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DD8F5452B9E17EA00B7EDE3 /* ViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		1D9656AB2B9B38A6005E2E6E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1D9656902B9B38A2005E2E6E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1D9656972B9B38A2005E2E6E;
+			remoteInfo = SafariSauceLabs;
+		};
+		1D9656B52B9B38A6005E2E6E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1D9656902B9B38A2005E2E6E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1D9656972B9B38A2005E2E6E;
+			remoteInfo = SafariSauceLabs;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1D9656982B9B38A2005E2E6E /* SafariSauceLabs.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SafariSauceLabs.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1D96569B2B9B38A2005E2E6E /* SafariSauceLabsApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SafariSauceLabsApp.swift; sourceTree = "<group>"; };
+		1D96569D2B9B38A2005E2E6E /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		1D96569F2B9B38A2005E2E6E /* Item.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Item.swift; sourceTree = "<group>"; };
+		1D9656A12B9B38A6005E2E6E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		1D9656A42B9B38A6005E2E6E /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		1D9656AA2B9B38A6005E2E6E /* SafariSauceLabsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SafariSauceLabsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1D9656AE2B9B38A6005E2E6E /* SafariSauceLabsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SafariSauceLabsTests.swift; sourceTree = "<group>"; };
+		1D9656B42B9B38A6005E2E6E /* SafariSauceLabsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SafariSauceLabsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1D9656B82B9B38A6005E2E6E /* SafariSauceLabsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SafariSauceLabsUITests.swift; sourceTree = "<group>"; };
+		1D9656BA2B9B38A6005E2E6E /* SafariSauceLabsUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SafariSauceLabsUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		1DA6F8D22B9D739900CDC1B6 /* LoginPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginPage.swift; sourceTree = "<group>"; };
+		1DA6F8D52B9D75E600CDC1B6 /* BaseTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseTest.swift; sourceTree = "<group>"; };
+		1DA6F8D72B9D76D800CDC1B6 /* LoginPageTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginPageTest.swift; sourceTree = "<group>"; };
+		1DA6F8D92B9D79B700CDC1B6 /* BasePage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BasePage.swift; sourceTree = "<group>"; };
+		1DA6F8DC2B9D7DDF00CDC1B6 /* WaitUtilities.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WaitUtilities.swift; sourceTree = "<group>"; };
+		1DD8F5362B9D8F6B00B7EDE3 /* SafariSauceLabsUITests2.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SafariSauceLabsUITests2.swift; sourceTree = "<group>"; };
+		1DD8F5382B9D95C500B7EDE3 /* HomePage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomePage.swift; sourceTree = "<group>"; };
+		1DD8F53A2B9DB24600B7EDE3 /* CartDetailsPage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CartDetailsPage.swift; sourceTree = "<group>"; };
+		1DD8F53C2B9DB49100B7EDE3 /* UserInformationPage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserInformationPage.swift; sourceTree = "<group>"; };
+		1DD8F53E2B9DC3DE00B7EDE3 /* ConfirmationPaymentPage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConfirmationPaymentPage.swift; sourceTree = "<group>"; };
+		1DD8F5452B9E17EA00B7EDE3 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1D9656952B9B38A2005E2E6E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1DD8F5422B9E165000B7EDE3 /* SwiftSoup in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1D9656A72B9B38A6005E2E6E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1D9656B12B9B38A6005E2E6E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1D96568F2B9B38A2005E2E6E = {
+			isa = PBXGroup;
+			children = (
+				1D96569A2B9B38A2005E2E6E /* SafariSauceLabs */,
+				1D9656AD2B9B38A6005E2E6E /* SafariSauceLabsTests */,
+				1D9656B72B9B38A6005E2E6E /* SafariSauceLabsUITests */,
+				1D9656992B9B38A2005E2E6E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		1D9656992B9B38A2005E2E6E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1D9656982B9B38A2005E2E6E /* SafariSauceLabs.app */,
+				1D9656AA2B9B38A6005E2E6E /* SafariSauceLabsTests.xctest */,
+				1D9656B42B9B38A6005E2E6E /* SafariSauceLabsUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1D96569A2B9B38A2005E2E6E /* SafariSauceLabs */ = {
+			isa = PBXGroup;
+			children = (
+				1D96569B2B9B38A2005E2E6E /* SafariSauceLabsApp.swift */,
+				1D96569D2B9B38A2005E2E6E /* ContentView.swift */,
+				1D96569F2B9B38A2005E2E6E /* Item.swift */,
+				1D9656A12B9B38A6005E2E6E /* Assets.xcassets */,
+				1D9656A32B9B38A6005E2E6E /* Preview Content */,
+				1DD8F5452B9E17EA00B7EDE3 /* ViewController.swift */,
+			);
+			path = SafariSauceLabs;
+			sourceTree = "<group>";
+		};
+		1D9656A32B9B38A6005E2E6E /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				1D9656A42B9B38A6005E2E6E /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		1D9656AD2B9B38A6005E2E6E /* SafariSauceLabsTests */ = {
+			isa = PBXGroup;
+			children = (
+				1D9656AE2B9B38A6005E2E6E /* SafariSauceLabsTests.swift */,
+			);
+			path = SafariSauceLabsTests;
+			sourceTree = "<group>";
+		};
+		1D9656B72B9B38A6005E2E6E /* SafariSauceLabsUITests */ = {
+			isa = PBXGroup;
+			children = (
+				1DA6F8CF2B9D723700CDC1B6 /* Pages */,
+				1DA6F8D42B9D75C700CDC1B6 /* Tests */,
+				1DA6F8DB2B9D7DBD00CDC1B6 /* Utils */,
+				1D9656B82B9B38A6005E2E6E /* SafariSauceLabsUITests.swift */,
+				1DD8F5362B9D8F6B00B7EDE3 /* SafariSauceLabsUITests2.swift */,
+				1D9656BA2B9B38A6005E2E6E /* SafariSauceLabsUITestsLaunchTests.swift */,
+			);
+			path = SafariSauceLabsUITests;
+			sourceTree = "<group>";
+		};
+		1DA6F8CF2B9D723700CDC1B6 /* Pages */ = {
+			isa = PBXGroup;
+			children = (
+				1DA6F8D92B9D79B700CDC1B6 /* BasePage.swift */,
+				1DA6F8D22B9D739900CDC1B6 /* LoginPage.swift */,
+				1DD8F5382B9D95C500B7EDE3 /* HomePage.swift */,
+				1DD8F53A2B9DB24600B7EDE3 /* CartDetailsPage.swift */,
+				1DD8F53C2B9DB49100B7EDE3 /* UserInformationPage.swift */,
+				1DD8F53E2B9DC3DE00B7EDE3 /* ConfirmationPaymentPage.swift */,
+			);
+			path = Pages;
+			sourceTree = "<group>";
+		};
+		1DA6F8D42B9D75C700CDC1B6 /* Tests */ = {
+			isa = PBXGroup;
+			children = (
+				1DA6F8D52B9D75E600CDC1B6 /* BaseTest.swift */,
+				1DA6F8D72B9D76D800CDC1B6 /* LoginPageTest.swift */,
+			);
+			path = Tests;
+			sourceTree = "<group>";
+		};
+		1DA6F8DB2B9D7DBD00CDC1B6 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				1DA6F8DC2B9D7DDF00CDC1B6 /* WaitUtilities.swift */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1D9656972B9B38A2005E2E6E /* SafariSauceLabs */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1D9656BE2B9B38A6005E2E6E /* Build configuration list for PBXNativeTarget "SafariSauceLabs" */;
+			buildPhases = (
+				1D9656942B9B38A2005E2E6E /* Sources */,
+				1D9656952B9B38A2005E2E6E /* Frameworks */,
+				1D9656962B9B38A2005E2E6E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SafariSauceLabs;
+			packageProductDependencies = (
+				1DD8F5412B9E165000B7EDE3 /* SwiftSoup */,
+			);
+			productName = SafariSauceLabs;
+			productReference = 1D9656982B9B38A2005E2E6E /* SafariSauceLabs.app */;
+			productType = "com.apple.product-type.application";
+		};
+		1D9656A92B9B38A6005E2E6E /* SafariSauceLabsTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1D9656C12B9B38A6005E2E6E /* Build configuration list for PBXNativeTarget "SafariSauceLabsTests" */;
+			buildPhases = (
+				1D9656A62B9B38A6005E2E6E /* Sources */,
+				1D9656A72B9B38A6005E2E6E /* Frameworks */,
+				1D9656A82B9B38A6005E2E6E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1D9656AC2B9B38A6005E2E6E /* PBXTargetDependency */,
+			);
+			name = SafariSauceLabsTests;
+			productName = SafariSauceLabsTests;
+			productReference = 1D9656AA2B9B38A6005E2E6E /* SafariSauceLabsTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		1D9656B32B9B38A6005E2E6E /* SafariSauceLabsUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1D9656C42B9B38A6005E2E6E /* Build configuration list for PBXNativeTarget "SafariSauceLabsUITests" */;
+			buildPhases = (
+				1D9656B02B9B38A6005E2E6E /* Sources */,
+				1D9656B12B9B38A6005E2E6E /* Frameworks */,
+				1D9656B22B9B38A6005E2E6E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1D9656B62B9B38A6005E2E6E /* PBXTargetDependency */,
+			);
+			name = SafariSauceLabsUITests;
+			productName = SafariSauceLabsUITests;
+			productReference = 1D9656B42B9B38A6005E2E6E /* SafariSauceLabsUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1D9656902B9B38A2005E2E6E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1520;
+				LastUpgradeCheck = 1520;
+				TargetAttributes = {
+					1D9656972B9B38A2005E2E6E = {
+						CreatedOnToolsVersion = 15.2;
+					};
+					1D9656A92B9B38A6005E2E6E = {
+						CreatedOnToolsVersion = 15.2;
+						TestTargetID = 1D9656972B9B38A2005E2E6E;
+					};
+					1D9656B32B9B38A6005E2E6E = {
+						CreatedOnToolsVersion = 15.2;
+						TestTargetID = 1D9656972B9B38A2005E2E6E;
+					};
+				};
+			};
+			buildConfigurationList = 1D9656932B9B38A2005E2E6E /* Build configuration list for PBXProject "SafariSauceLabs" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 1D96568F2B9B38A2005E2E6E;
+			packageReferences = (
+				1DD8F5402B9E165000B7EDE3 /* XCRemoteSwiftPackageReference "SwiftSoup" */,
+			);
+			productRefGroup = 1D9656992B9B38A2005E2E6E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1D9656972B9B38A2005E2E6E /* SafariSauceLabs */,
+				1D9656A92B9B38A6005E2E6E /* SafariSauceLabsTests */,
+				1D9656B32B9B38A6005E2E6E /* SafariSauceLabsUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1D9656962B9B38A2005E2E6E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1D9656A52B9B38A6005E2E6E /* Preview Assets.xcassets in Resources */,
+				1D9656A22B9B38A6005E2E6E /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1D9656A82B9B38A6005E2E6E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1D9656B22B9B38A6005E2E6E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1D9656942B9B38A2005E2E6E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1DD8F5462B9E17EA00B7EDE3 /* ViewController.swift in Sources */,
+				1D96569E2B9B38A2005E2E6E /* ContentView.swift in Sources */,
+				1D9656A02B9B38A2005E2E6E /* Item.swift in Sources */,
+				1D96569C2B9B38A2005E2E6E /* SafariSauceLabsApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1D9656A62B9B38A6005E2E6E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1D9656AF2B9B38A6005E2E6E /* SafariSauceLabsTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1D9656B02B9B38A6005E2E6E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1DD8F53D2B9DB49100B7EDE3 /* UserInformationPage.swift in Sources */,
+				1DA6F8D62B9D75E600CDC1B6 /* BaseTest.swift in Sources */,
+				1DD8F5392B9D95C500B7EDE3 /* HomePage.swift in Sources */,
+				1DA6F8DA2B9D79B700CDC1B6 /* BasePage.swift in Sources */,
+				1DA6F8DD2B9D7DDF00CDC1B6 /* WaitUtilities.swift in Sources */,
+				1DA6F8D32B9D739900CDC1B6 /* LoginPage.swift in Sources */,
+				1DD8F53B2B9DB24600B7EDE3 /* CartDetailsPage.swift in Sources */,
+				1DD8F5372B9D8F6B00B7EDE3 /* SafariSauceLabsUITests2.swift in Sources */,
+				1DD8F53F2B9DC3DE00B7EDE3 /* ConfirmationPaymentPage.swift in Sources */,
+				1D9656BB2B9B38A6005E2E6E /* SafariSauceLabsUITestsLaunchTests.swift in Sources */,
+				1DA6F8D82B9D76D800CDC1B6 /* LoginPageTest.swift in Sources */,
+				1D9656B92B9B38A6005E2E6E /* SafariSauceLabsUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		1D9656AC2B9B38A6005E2E6E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1D9656972B9B38A2005E2E6E /* SafariSauceLabs */;
+			targetProxy = 1D9656AB2B9B38A6005E2E6E /* PBXContainerItemProxy */;
+		};
+		1D9656B62B9B38A6005E2E6E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1D9656972B9B38A2005E2E6E /* SafariSauceLabs */;
+			targetProxy = 1D9656B52B9B38A6005E2E6E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		1D9656BC2B9B38A6005E2E6E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		1D9656BD2B9B38A6005E2E6E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1D9656BF2B9B38A6005E2E6E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"SafariSauceLabs/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = QA.SafariSauceLabs;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		1D9656C02B9B38A6005E2E6E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"SafariSauceLabs/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = QA.SafariSauceLabs;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		1D9656C22B9B38A6005E2E6E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = QA.SafariSauceLabsTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SafariSauceLabs.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/SafariSauceLabs";
+			};
+			name = Debug;
+		};
+		1D9656C32B9B38A6005E2E6E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = QA.SafariSauceLabsTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SafariSauceLabs.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/SafariSauceLabs";
+			};
+			name = Release;
+		};
+		1D9656C52B9B38A6005E2E6E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = QA.SafariSauceLabsUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = SafariSauceLabs;
+			};
+			name = Debug;
+		};
+		1D9656C62B9B38A6005E2E6E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = QA.SafariSauceLabsUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = SafariSauceLabs;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1D9656932B9B38A2005E2E6E /* Build configuration list for PBXProject "SafariSauceLabs" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1D9656BC2B9B38A6005E2E6E /* Debug */,
+				1D9656BD2B9B38A6005E2E6E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1D9656BE2B9B38A6005E2E6E /* Build configuration list for PBXNativeTarget "SafariSauceLabs" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1D9656BF2B9B38A6005E2E6E /* Debug */,
+				1D9656C02B9B38A6005E2E6E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1D9656C12B9B38A6005E2E6E /* Build configuration list for PBXNativeTarget "SafariSauceLabsTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1D9656C22B9B38A6005E2E6E /* Debug */,
+				1D9656C32B9B38A6005E2E6E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1D9656C42B9B38A6005E2E6E /* Build configuration list for PBXNativeTarget "SafariSauceLabsUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1D9656C52B9B38A6005E2E6E /* Debug */,
+				1D9656C62B9B38A6005E2E6E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		1DD8F5402B9E165000B7EDE3 /* XCRemoteSwiftPackageReference "SwiftSoup" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/scinfu/SwiftSoup";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 2.7.1;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		1DD8F5412B9E165000B7EDE3 /* SwiftSoup */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 1DD8F5402B9E165000B7EDE3 /* XCRemoteSwiftPackageReference "SwiftSoup" */;
+			productName = SwiftSoup;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = 1D9656902B9B38A2005E2E6E /* Project object */;
+}
